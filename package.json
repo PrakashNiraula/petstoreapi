@@ -1,0 +1,33 @@
+{
+  "name": "backend_petstore",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/salu-dahal/backend_PetStore.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/salu-dahal/backend_PetStore/issues"
+  },
+  "homepage": "https://github.com/salu-dahal/backend_PetStore#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "jwt-decode": "^3.1.2",
+    "logger": "0.0.1",
+    "mongoose": "^5.11.12",
+    "multer": "^1.4.2",
+    "validator": "^13.5.2"
+  }
+}
